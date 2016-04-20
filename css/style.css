@@ -1,0 +1,85 @@
+html{
+	min-width: 960px;
+	background: #DEF5F4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+	width: 960px;
+	height: 1024px;
+	background: url(../images/bgintel.jpg) repeat-y;
+	
+	background-size: 100%;
+	margin: 0 auto;
+}
+
+header{
+	height: 105px;
+	background: url(../images/bg.jpg);
+	
+}
+
+
+nav{
+	float: left;
+	
+}
+
+.nav ul{
+	
+	position: relative;
+} 
+
+.nav li{
+	display: inline;
+	
+	/*margin-right: 0;*/
+}
+
+ul.dropdown, ul.dropdown-inside {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 960px;
+	
+}	
+ul.dropdown-inside {
+	position: absolute;
+	display: none; 	/*альтернативный вариант left: -9999px;*/
+}
+
+ul.dropdown li.dropdown-top {
+	display: inline;
+	float: left;
+	margin: 0 1px;
+	
+	
+	
+}
+ul.dropdown li.dropdown-top a {
+	padding: 3px 10px 4px;
+	display: block;
+	color: black;
+	
+}
+ul.dropdown a.dropdown-top { background: #BAC4D2; }
+ul.dropdown a.dropdown-top:hover { 
+	padding: 2px 10px 5px; 
+	
+}
+ul.dropdown li.dropdown-top:hover .dropdown-inside {
+	display: block;
+	left: 0;
+	
+}
+ul.dropdown .dropdown-inside { background: #BAC4D2; }
+ul.column{ 
+	float: left;
+	width: 20%;
+}
+
+h4.title{
+	display: inline;
+	color: #824051;
+}
