@@ -106,10 +106,10 @@
 							
 							<ul class="column">	
 								<h4 class="title">Skylake</h4>
-								<li><a href="/">G4400</a></li>
+								<!--<li><a href="/">G4400</a></li>
 								<li><a href="/">G4500</a></li>
 								<li><a href="/">G4520</a></li>
-								
+								-->
 							</ul>
 						</ul>
 					</li>
